@@ -1,4 +1,4 @@
-# ![[tktk Module Name] - References](./assets/hero.png)
+# ![Intermediate HTML - References](./assets/hero.png)
 
 ## Lesson references
 

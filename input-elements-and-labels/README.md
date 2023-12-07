@@ -1,6 +1,6 @@
 # ![Intermediate HTML - Input Elements and Labels](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will be able to tktk
+**Learning objective:** By the end of this lesson, students will be able to create a form with labeled inputs. 
 
 ## The input element
 
@@ -76,6 +76,8 @@ Unlike `<input>`, `<textarea>` needs a closing tag.
 After making the above adjustments, open the browser again and test this new <textarea> out. Much better!
 
 
+
+[tktk potentially rm: ]
 ## Basic Form Considerations
 
 When creating a form, try to keep things simple and focused. While forms are often necessary to collect certain information, from a user's perspective entering a lot of data can be frustrating. 

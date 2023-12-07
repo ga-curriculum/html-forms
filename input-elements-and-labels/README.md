@@ -2,12 +2,65 @@
 
 **Learning objective:** By the end of this lesson, students will be able to tktk
 
+## The Input Element
 
 As we discussed above, `<form>` is a container element, designed to be filled with other elements. 
 
-Let's introduce two of the most common of these elements now - `<input>` and `<textarea>`. 
+Let's introduce one of the most common elements now: `<input>`
 
-The `<input>` element 
+The `<input>` element is the primary way to create interfaces for interacting with the user. `<input>` elements can vary drastically depending on their `type` attribute, which dictates a lot about the behavior of the `<input>`. 
+
+For example, an `<input>` with the `type="text"` attribute creates a single-line text field. An `<input>` with the `type="checkbox"` attribute, in contrast, creates a single check box that toggles between selected and deselected. Some input types like `type="data"` create entire data pickers.  
+
+Add the following form to `index.html`: 
+
+```html
+<form>
+  <input type="text" />
+  <input type="checkbox" />
+  <input type="date" />
+  <input type="color" />
+</form>
+```
+
+Open the page in the browser and experiment with each input. You'll see that while they are all `<input>`'s, the behavior of each type of input varies wildly. 
+
+## Using Labels
+
+You may have also noticed that it's hard to determine what each of these inputs is for. Giving each of our inputs a clear label helps to solve that issue, and is especially important for accessability. 
+
+First, let's simplify our code a bit. We'll change the inputs to mimic a simple "Contact Us" form: 
+
+```html
+<form>
+  <input type="text">
+  <input type="email">
+  <input type="text">
+</form>
+```
+
+Next, let's add labels that denote what information each input is seeking to capture: 
+
+```html
+<form>
+  <label for="name"> Name: </label>
+  <input type="text" id="name">
+  <label for="email"> Email: </label>
+  <input type="email" id="email">
+  <label for="msg"> Message: </label>
+  <input type="text" id="msg">
+</form>
+```
+
+Note that we use a `for` attribute on each `<label>` element, which corresponds an `id` of the input it is labelling. This step achieves two things - first, it allows for mouse, trackpad, and touch device association between the label and the input, and secondly it gives each input a legible name for screen readers. 
+
+If we open these changes in the browser, we should see that each input has been given a label. 
+
+
+
+
+
+
 
 
 

@@ -22,6 +22,7 @@ To create a form, we use the `<form>` container element:
 </form>
 ```
 
+
 The form element has a number of attributes that help to configure how the form will behave. All of these attributes are optional, but some of them like **action** and **method** are used on every form when working with sending form data to a server. 
 
 ```html

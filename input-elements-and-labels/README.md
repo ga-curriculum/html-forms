@@ -10,26 +10,11 @@ Let's introduce one of the most common elements now: `<input>`
 
 The `<input>` element is the primary way to create interfaces for interacting with the user. `<input>` elements can vary drastically depending on their `type` attribute, which dictates a lot about the behavior of the `<input>`. 
 
-For example, an `<input>` with the `type="text"` attribute creates a single-line text field. An `<input>` with the `type="checkbox"` attribute, in contrast, creates a single check box that toggles between selected and deselected. Some input types like `type="data"` create entire data pickers.  
+An <input> with a type of `"text"` will create a single-line text field.
 
-Add the following form to `index.html`: 
+An <input> with a type of `"email"` will at first glance look identical to one with a type of `"text"`, but will offer some out of the box validation to make sure the input is formatted like an email address. 
 
-```html
-<form>
-  <input type="text" />
-  <input type="checkbox" />
-  <input type="date" />
-  <input type="color" />
-</form>
-```
-
-Open the page in the browser and experiment with each input. You'll see that while they are all `<input>`'s, the behavior of each type of input varies wildly. 
-
-## Using labels
-
-You may have also noticed that it's hard to determine what each of these inputs is for. Giving each of our inputs a clear label helps to solve that issue, and is especially important for accessability. 
-
-First, let's simplify our code a bit. We'll change the inputs to mimic a simple "Contact Us" form: 
+Let's add the following three <input> elements to our form:
 
 ```html
 <form>
@@ -39,7 +24,13 @@ First, let's simplify our code a bit. We'll change the inputs to mimic a simple 
 </form>
 ```
 
-Next, let's add labels that denote what information each input is seeking to capture: 
+Open the page in the browser and check out the result!
+
+## Using labels
+
+You may have noticed that it's hard to determine what each of these inputs is supposed to do. Giving each of our inputs a clear label helps to solve that issue, and is an especially important step for maintaining good accessability. 
+
+So, let's add labels to display what information each input is seeking to capture: 
 
 ```html
 <form>
@@ -52,7 +43,7 @@ Next, let's add labels that denote what information each input is seeking to cap
 </form>
 ```
 
-Note that we use a `for` attribute on each `<label>` element, which corresponds an `id` of the input it is labelling. This step achieves two things - first, it allows for mouse, trackpad, and touch device association between the label and the input, and secondly it gives each input a legible name for screen readers. 
+Note that we use a `for` attribute on each `<label>` element, which corresponds to an `id` of the input it is labelling. This step achieves two things - first, it allows for mouse, trackpad, and touch device association between the label and the input, and secondly it gives each input a readable name for screen readers. 
 
 If we open these changes in the browser, we should see that each input has been given a label. 
 
@@ -75,6 +66,29 @@ Unlike `<input>`, `<textarea>` needs a closing tag.
 
 After making the above adjustments, open the browser again and test this new <textarea> out. Much better!
 
+
+## Form Structure
+
+When structuring inside of a form, we can use normal HTML. <p> tags and <div> tag are commonly used to create structure, as are lists. 
+
+As an example of this, let's add some <div> tags to give our contact form a more vertical alignment. 
+
+```html
+<form>
+  <div>
+    <label for="name"> Name: </label>
+    <input type="text" id="name" />
+  </div>
+  <div>
+    <label for="email"> Email: </label>
+    <input type="email" id="email" />
+  </div>
+  <div>
+    <label for="msg"> Message: </label>
+    <textarea id="msg"></textarea>
+  </div>
+</form>
+```
 
 
 [tktk potentially rm: ]

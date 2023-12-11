@@ -26,11 +26,11 @@ tktk Write a short but descriptive summary of the content in this module.
 
 | Lesson | Video Time | Video | Skills |
 | ------ |:----------:|:-----:| ------ |
-| [Advanced Input Types](./advanced-input-types/README.md) | -- | -- | tktk skills covered |
-| [Advanced Form Elements](./advanced-form-elements/README.md) | -- | -- | tktk skills covered |
-| [Advanced Form Validation and Feedback](./advanced-form-validation-and-feedback/README.md) | -- | -- | tktk skills covered |
-| [Additional Enhancements](./additional-enhancements/README.md) | -- | -- | tktk skills covered |
-| [Additional Elements to Enhance Accessibility](./additional-elements-to-enhance-accessibility/README.md) | -- | -- | tktk skills covered |
+| [Advanced Input Types](./level-up/advanced-input-types.md) | -- | -- | tktk skills covered |
+| [Advanced Form Elements](./level-up/advanced-form-elements.md) | -- | -- | tktk skills covered |
+| [Advanced Form Validation and Feedback](./level-up/advanced-form-validation-and-feedback.md) | -- | -- | tktk skills covered |
+| [Additional Enhancements](./level-up/additional-enhancements.md) | -- | -- | tktk skills covered |
+| [Additional Elements to Enhance Accessibility](./level-up/additional-elements-to-enhance-accessibility.md) | -- | -- | tktk skills covered |
 | **Total Level Up content**                                          | -- | -- |                     |
 
 ## References

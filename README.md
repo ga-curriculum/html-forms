@@ -26,10 +26,11 @@ tktk Write a short but descriptive summary of the content in this module.
 
 | Lesson | Video Time | Video | Skills |
 | ------ |:----------:|:-----:| ------ |
-| [Advanced Form Elements](./tktk-microlesson-03/README.md) | -- | -- | tktk skills covered |
-| [Advanced Form Validation and Feedback](./tktk-microlesson-03/README.md) | -- | -- | tktk skills covered |
-| [Additional Enhancements](./tktk-microlesson-03/README.md) | -- | -- | tktk skills covered |
-| [Additional Elements to Enhance Accessibility](./tktk-microlesson-03/README.md) | -- | -- | tktk skills covered |
+| [Advanced Input Types](./advanced-input-types/README.md) | -- | -- | tktk skills covered |
+| [Advanced Form Elements](./advanced-form-elements/README.md) | -- | -- | tktk skills covered |
+| [Advanced Form Validation and Feedback](./advanced-form-validation-and-feedback/README.md) | -- | -- | tktk skills covered |
+| [Additional Enhancements](./additional-enhancements/README.md) | -- | -- | tktk skills covered |
+| [Additional Elements to Enhance Accessibility](./additional-elements-to-enhance-accessibility/README.md) | -- | -- | tktk skills covered |
 | **Total Level Up content**                                          | -- | -- |                     |
 
 ## References

@@ -17,11 +17,11 @@ elements.
   </div>
   <!-- Add the following: -->
   <div>
-    <label for="category"> I have a question about: </label>
+    <label for="category"> I'm contacting about: </label>
     <select id="category">
-      <option>
-      <option>
-      <option>
+      <option value="work">A job opportunity</option>
+      <option value="question">A question</option>
+      <option value="misc">Miscellaneous</option>
     </select>
   </div>
 

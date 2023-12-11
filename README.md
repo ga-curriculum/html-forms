@@ -14,12 +14,12 @@ tktk Write a short but descriptive summary of the content in this module.
 
 | Lesson | Video Time | Video | Skills |
 | ------ |:----------:|:-----:| ------ |
-| [Setup](./level-up/tktk-microlesson-01.md) | -- | -- | tktk skills covered |
-| [Forms in HTML](./level-up/tktk-microlesson-02.md) | -- | -- | tktk skills covered |
-| [Input Elements and Labels](./level-up/tktk-microlesson-03.md) | -- | -- | tktk skills covered |
-| [Button Elements in Forms](./level-up/tktk-microlesson-03.md) | -- | -- | tktk skills covered |
-| [Form Validation Techniques](./level-up/tktk-microlesson-03.md) | -- | -- | tktk skills covered |
-| [Accessibility in Web Forms](./level-up/tktk-microlesson-03.md) | -- | -- | tktk skills covered |
+| [Setup](./setup/README.md) | -- | -- | -- |
+| [Forms in HTML](./forms-in-html/README.md) | -- | -- | tktk skills covered |
+| [Input Elements and Labels](./input-elements-and-labels/README.md) | -- | -- | tktk skills covered |
+| [Button Elements in Forms](./button-elements-in-forms/README.md.md) | -- | -- | tktk skills covered |
+| [Form Validation Techniques](./form-validation-techniques/README.md) | -- | -- | tktk skills covered |
+| [Accessibility in Web Forms](./accessibility-in-web-forms/README.md) | -- | -- | tktk skills covered |
 | **Total content**                                        | -- | -- |                     |
 
 ## Level Up content

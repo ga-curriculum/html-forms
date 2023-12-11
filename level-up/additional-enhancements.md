@@ -30,5 +30,4 @@ In this instance, we provide some of the most popular pets as options in a `<dat
 
 Using an input with a datalist means that we can hint at popular answers, but also leave the option for the user to enter something else. It also subtly points users towards using generic terms like "dog" or "fish", vs. entering specifics like "Golden Labradoodle" or "Peppermint Angelfish". 
 
-There is a compromise at play here. A `<select>` is more rigid, and strictly enforces possible inputs to a curated list of possible options. 
-An `input` with an associated `<datalist>` 
+`<select>` is more rigid, and strictly enforces possible inputs to a curated list of possible options. An `<input>` with an associated `<datalist>` offers selectable options and auto-complete, but should still be treated like an `<input>`. 

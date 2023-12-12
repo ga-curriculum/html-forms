@@ -13,22 +13,22 @@ tktk Write a short but descriptive summary of the content in this module.
 | Lesson | Video Time | Video | Skills |
 | ------ |:----------:|:-----:| ------ |
 | [Setup](./setup/README.md) | -- | -- | -- |
-| [Forms in HTML](./forms-in-html/README.md) | -- | -- | tktk skills covered |
-| [Input Elements and Labels](./input-elements-and-labels/README.md) | -- | -- | tktk skills covered |
-| [Button Elements in Forms](./button-elements-in-forms/README.md.md) | -- | -- | tktk skills covered |
-| [Form Validation Techniques](./form-validation-techniques/README.md) | -- | -- | tktk skills covered |
-| [Accessibility in Web Forms](./accessibility-in-web-forms/README.md) | -- | -- | tktk skills covered |
+| [Forms in HTML](./forms-in-html/README.md) | -- | -- | How to construct a basic form in HTML. |
+| [Input Elements and Labels](./input-elements-and-labels/README.md) | -- | -- | Create a form with labeled inputs. |
+| [Button Elements in Forms](./button-elements-in-forms/README.md.md) | -- | -- | Using a button to submit a form. |
+| [Form Validation Techniques](./form-validation-techniques/README.md) | -- | -- | Client-side form validation. |
+| [Accessibility in Web Forms](./accessibility-in-web-forms/README.md) | -- | -- | Understand how labels and placeholders differ.  |
 | **Total content**                                        | -- | -- |                     |
 
 ## Level Up content
 
 | Lesson | Video Time | Video | Skills |
 | ------ |:----------:|:-----:| ------ |
-| [Advanced Input Types](./level-up/advanced-input-types.md) | -- | -- | tktk skills covered |
-| [Advanced Form Elements](./level-up/advanced-form-elements.md) | -- | -- | tktk skills covered |
-| [Advanced Form Validation and Feedback](./level-up/advanced-form-validation-and-feedback.md) | -- | -- | tktk skills covered |
-| [Additional Enhancements](./level-up/additional-enhancements.md) | -- | -- | tktk skills covered |
-| [Additional Elements to Enhance Accessibility](./level-up/additional-elements-to-enhance-accessibility.md) | -- | -- | tktk skills covered |
+| [Advanced Input Types](./level-up/advanced-input-types.md) | -- | -- | Deeper dive into all of the input types. |
+| [Advanced Form Elements](./level-up/advanced-form-elements.md) | -- | -- | The Select and Option elements. |
+| [Advanced Form Validation and Feedback](./level-up/advanced-form-validation-and-feedback.md) | -- | -- | The :valid pseudo-class and validation feedback. |
+| [Additional Enhancements](./level-up/additional-enhancements.md) | -- | -- | The Datalist element. |
+| [Additional Elements to Enhance Accessibility](./level-up/additional-elements-to-enhance-accessibility.md) | -- | -- | Using fieldset to structure a form. |
 | **Total Level Up content**                                          | -- | -- |                     |
 
 ## References

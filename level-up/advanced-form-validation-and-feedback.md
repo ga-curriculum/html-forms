@@ -86,4 +86,4 @@ In the browser, try entering a password that conforms to this pattern. You shoul
 
 ## Accessibility Concerns
 
-Typically, invalid inputs are styled red while valid inputs are styled green. For people with certain types of color blindness, this can present accessibility issues. As such, accompanying text or icons are typically favored over simply using color to note the validity of a form. 
+Typically, invalid inputs are styled red while valid inputs are styled green. For people with certain types of color blindness, this can present accessibility issues. As such, accompanying text or icons are typically favored over simply using color to note the validity of a form. This can be handled with JavaScript, or in CSS by adding an image background of an icon to the input background. 

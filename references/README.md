@@ -3,8 +3,8 @@
 ## Lesson references
 
 - [tktk descriptive name of link]()
-- [tktk descriptive name of link]()
-- [tktk descriptive name of link]()
+- [Form Attributes on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form#attributes)
+- [Built-in Validation](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/email#value)
 
 ## Level Up references
 

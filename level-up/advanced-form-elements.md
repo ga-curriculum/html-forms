@@ -9,11 +9,11 @@ elements.
 <form action="/the-form-submits-here" method="post">
   <div>
     <label for="name"> Name: </label>
-    <input type="text" id="name" />
+    <input type="text" id="name" required />
   </div>
   <div>
     <label for="email"> Email: </label>
-    <input type="email" id="email" />
+    <input type="email" id="email" required />
   </div>
   <!-- Add the following: -->
   <div>
@@ -27,7 +27,7 @@ elements.
 
   <div>
     <label for="msg"> Message: </label>
-    <textarea id="msg"></textarea>
+    <textarea id="msg" required maxLength="100"></textarea>
   </div>
   <button type="submit"> Submit <button>
 </form>

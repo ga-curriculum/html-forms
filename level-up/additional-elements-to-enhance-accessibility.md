@@ -1,4 +1,85 @@
 # ![Intermediate HTML - Level Up - Additional Elements to Enhance Accessibility](./assets/hero.png)
 
-The <fieldset> and <legend> elements for grouping and describing form controls
-code-along: Revise the existing form to include ARIA roles and group related elements using fieldset and legend. ( maybe show you can group all the parts of an address together as an example) 
+## fieldset and legend
+
+`<fieldset>` is a layout element specifically designed to group related elements in a form. Unlike a `<div>`, which is a generic and non-semantic way to divide content, a `<fieldset>` offers improved markup clarity and has an implicit ARIA role built in.  
+
+The `<legend>` element goes inside of a `<fieldset>` and serves as a caption for whatever content is contained in the `<fieldset>`. These help users more readily understand the purpose of each section in a form. 
+
+Let's apply this dynamic duo to the first part of our existing form: 
+
+```html
+<form action="/the-form-submits-here" method="post">
+  <fieldset>
+      <legend>Contact Information</legend>
+        <div>
+          <label for="name"> Name: </label>
+          <input type="text" id="name" />
+        </div>
+        <div>
+          <label for="email"> Email: </label>
+          <input type="email" id="email" />
+        </div>
+  </fieldset>
+```
+
+The `<fieldset>` wraps around all of the `<input>`'s that make up the grouping. 
+
+One of the big benefits of the `<fieldset>` element is that it can help provide meaningful ARIA labelling. The ARIA `group` role is used to denote a collection of items or elements with related functionality. As this is the intended use-case for a `<fieldset>`, this is also the implicit ARIA role for any `<fieldset>` element, meaning that the browser automatically interprets the role without us needing to use the `role` attribute. 
+
+There is one improvement we can still make, however:
+
+```html
+<form action="/the-form-submits-here" method="post">
+  <!-- Add the aria-labelledby attribute: -->
+  <fieldset aria-labelledby="contactLegend">
+    <!-- Add an id below: -->
+    <legend id="contactLegend">Contact Information</legend>
+      <div>
+        <label for="name"> Name: </label>
+        <input type="text" id="name" />
+      </div>
+      <div>
+        <label for="email"> Email: </label>
+        <input type="email" id="email" />
+      </div>
+  </fieldset>
+```
+
+Following a familiar pattern by now, we'll associate the `<fieldset>` and `<legend>` using an `id` and the [`aria-labelledby`](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-labelledby) attribute. This is a great way to provide an accessible name for the `<fieldset>`. 
+
+In the same way that `<input>` elements should always have a `<label>`, giving each `<fieldset>` element an appropriate `<legend>` goes a long way towards ensuring your forms remain accessible and clear to users. 
+
+Finally, let's use another `<fieldset>` to finish our form:
+
+```html
+<form action="/the-form-submits-here" method="post">
+  <fieldset aria-labelledby="contactLegend">
+    <legend id="contactLegend">Contact Information</legend>
+    <div>
+      <label for="name"> Name: </label>
+      <input type="text" id="name" />
+    </div>
+    <div>
+      <label for="email"> Email: </label>
+      <input type="email" id="email" />
+    </div>
+  </fieldset>
+  <fieldset aria-labelledby="msgLegend">
+    <legend id="msgLegend">Message</legend>
+    <div>
+      <label for="category"> I'm contacting about: </label>
+      <select id="category">
+        <option value="work">A job opportunity</option>
+        <option value="question">A question</option>
+        <option value="misc">Miscellaneous</option>
+      </select>
+    </div>
+    <div>
+      <label for="msg"> Message: </label>
+      <textarea id="msg"></textarea>
+    </div>
+  </fieldset>
+  <button type="submit"> Submit <button>
+</form>
+```

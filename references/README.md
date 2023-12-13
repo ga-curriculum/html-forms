@@ -1,13 +1,12 @@
-# ![[tktk Module Name] - References](./assets/hero.png)
+# ![Intermediate HTML - References](./assets/hero.png)
 
 ## Lesson references
 
-- [tktk descriptive name of link]()
-- [tktk descriptive name of link]()
-- [tktk descriptive name of link]()
+- [Form Attributes on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form#attributes)
+- [Built-in Validation](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/email#value)
 
 ## Level Up references
 
-- [tktk descriptive name of link]()
-- [tktk descriptive name of link]()
-- [tktk descriptive name of link]()
+- [Input Types on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#input_types)
+- [aria-labelledby](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-labelledby)
+- [Advanced Form Styling](https://developer.mozilla.org/en-US/docs/Learn/Forms/Advanced_form_styling)

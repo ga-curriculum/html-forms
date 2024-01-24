@@ -6,9 +6,7 @@
 
 If you've used the internet for more than a couple of minutes, you're likely already familiar with forms. Every time you've signed up for or signed into a website, every time you've 'googled' something - any time you've needed to enter text into a website to interact with it - you were using a form. 
 
-Forms are one of the primary ways in which you will interact with user data as you develop applications. They are a crucial tool that allows us to collect data from users, data which can be sent to a server for storage or used to generate results to send back to the user. 
-
-Forms can also give users the ability to interact with the application's  interface - for instance, a form might hold checkboxes that control hiding or showing certain UI elements. 
+Forms are one of the primary ways in which you will interact with user data as you develop applications. They are a crucial tool that allows us to collect data from users.  They also give users the ability to interact with the application's  interface - for instance, a form might hold checkboxes that control hiding or showing certain UI elements. 
 
 ## The form element
 

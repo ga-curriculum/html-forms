@@ -10,11 +10,11 @@ Let's introduce one of the most common elements now: `<input>`
 
 The `<input>` element is the primary way to create interfaces for interacting with the user. `<input>` elements can vary drastically depending on their `type` attribute, which dictates a lot about the behavior of the `<input>`. 
 
-An <input> with a type of `"text"` will create a single-line text field.
+An `<input>` with a type of `"text"` will create a single-line text field.
 
-An <input> with a type of `"email"` will at first glance look identical to one with a type of `"text"`, but will offer some out of the box validation to make sure the input is formatted like an email address. 
+An `<input>` with a type of `"email"` will at first glance look identical to one with a type of `"text"`, but will offer some validation to make sure the input is formatted like an email address. 
 
-Let's add the following three <input> elements to our form:
+Let's add the following three `<input>` elements to our form:
 
 ```html
 <form>
@@ -64,14 +64,13 @@ Luckily, we can instead use the `<textarea>` element, which is an input element 
 
 Unlike `<input>`, `<textarea>` needs a closing tag. 
 
-After making the above adjustments, open the browser again and test this new <textarea> out. Much better!
-
+After making the above adjustments, refresh the browser and test this new `<textarea>` out. Much better!
 
 ## Form Structure
 
-When structuring inside of a form, we can use normal HTML. <p> tags and <div> tag are commonly used to create structure, as are lists. 
+When structuring inside of a form, we can use normal HTML. `<p>` tags and `<div>` tag are commonly used to create structure, as are lists. 
 
-As an example of this, let's add some <div> tags to give our contact form a more vertical alignment. 
+As an example of this, let's add some `<div>` tags to give our contact form a more vertical alignment. 
 
 ```html
 <form>
@@ -91,7 +90,6 @@ As an example of this, let's add some <div> tags to give our contact form a more
 ```
 
 
-[tktk potentially rm: ]
 ## Basic Form Considerations
 
 When creating a form, try to keep things simple and focused. While forms are often necessary to collect certain information, from a user's perspective entering a lot of data can be frustrating. 

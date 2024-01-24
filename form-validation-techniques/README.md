@@ -6,7 +6,7 @@
 
 As a user, you no doubt have had the experience of entering information into a form and pressing the submit button, only for "This field is required" to pop up next to an empty input you missed. Or perhaps you've entered a password that didn't exactly conform to the 12 different rules laid out on a sign-up page. While this can be frustrating, it's actually for the user's benefit - after all, why allow data to make it to the server if we know it's not in a form we can use?
 
-This is called client-side validation - tests that happen before the data is actually sent off to wherever it's going. 
+This is called client-side validation - tests that happen before the data is actually sent off to the server. 
 
 ## Built-in form validation
 

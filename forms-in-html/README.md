@@ -1,4 +1,4 @@
-# ![Intermediate HTML - Forms in HTML](./assets/hero.png)
+# ![HTML Forms - Forms in HTML](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will understand what forms are, and how to construct a basic form in HTML. 
 

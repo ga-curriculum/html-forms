@@ -1,4 +1,4 @@
-# ![Intermediate HTML - Button Elements in Forms](./assets/hero.png)
+# ![HTML Forms - Button Elements in Forms](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will be able to use a button to submit a form.
 

@@ -1,4 +1,4 @@
-# ![Intermediate HTML - Level Up - Advanced Form Validation and Feedback](./assets/hero.png)
+# ![HTML Forms - Level Up - Advanced Form Validation and Feedback](./assets/hero.png)
 
 ## CSS Selectors for Form Feedback
 

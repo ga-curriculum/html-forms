@@ -1,4 +1,4 @@
-# ![Intermediate HTML - Form Validation Techniques](./assets/hero.png)
+# ![HTML Forms - Form Validation Techniques](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will be able to add client-side form validation to their forms. 
 

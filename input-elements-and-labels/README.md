@@ -1,4 +1,4 @@
-# ![Intermediate HTML - Input Elements and Labels](./assets/hero.png)
+# ![HTML Forms - Input Elements and Labels](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will be able to create a form with labeled inputs. 
 

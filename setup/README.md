@@ -1,4 +1,4 @@
-# ![Intermediate HTML - Setup](./assets/hero.png)
+# ![HTML Forms - Setup](./assets/hero.png)
 
 Open your Terminal application and navigate to your `~/code/ga/lectures` directory:
 

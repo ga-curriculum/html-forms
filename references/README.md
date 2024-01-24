@@ -1,4 +1,4 @@
-# ![Intermediate HTML - References](./assets/hero.png)
+# ![HTML Forms - References](./assets/hero.png)
 
 ## Lesson references
 

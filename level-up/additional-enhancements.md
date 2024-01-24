@@ -1,4 +1,4 @@
-# ![Intermediate HTML - Level Up - Additional Enhancements](./assets/hero.png)
+# ![HTML Forms - Level Up - Additional Enhancements](./assets/hero.png)
 
 ## The datalist element
 

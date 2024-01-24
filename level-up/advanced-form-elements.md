@@ -1,4 +1,4 @@
-# ![Intermediate HTML - Level Up - Advanced Form Elements](./assets/hero.png)
+# ![HTML Forms - Level Up - Advanced Form Elements](./assets/hero.png)
 
 One form element we haven't touched on yet is `<select>`, which is used for creating dropdown menus so that the user can select from a list of options. 
 

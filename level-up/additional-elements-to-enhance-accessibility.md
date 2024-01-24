@@ -1,4 +1,4 @@
-# ![Intermediate HTML - Level Up - Additional Elements to Enhance Accessibility](./assets/hero.png)
+# ![HTML Forms - Level Up - Additional Elements to Enhance Accessibility](./assets/hero.png)
 
 ## fieldset and legend
 

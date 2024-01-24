@@ -1,4 +1,4 @@
-# ![Intermediate HTML - Accessibility in Web Forms](./assets/hero.png)
+# ![HTML Forms - Accessibility in Web Forms](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will understand how labels and placeholders differ. 
 

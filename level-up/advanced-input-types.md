@@ -1,4 +1,4 @@
-# ![Intermediate HTML - Level Up - Advanced Input Types](./assets/hero.png)
+# ![HTML Forms - Level Up - Advanced Input Types](./assets/hero.png)
 
 There are over twenty different input types that are available, each with distinct behaviors. An `<input>` with the `type="checkbox"` attribute, for example, creates a single check box that toggles between selected and deselected. Some input types like `type="data"` create entire data pickers!
 

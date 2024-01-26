@@ -2,7 +2,7 @@
 
 ## About
 
-tktk Write a short but descriptive summary of the content in this module.
+Forms are more than just a way to gather information; they are the backbone of user interaction on the web. From signing into websites to searching for information, forms make these everyday actions possible. In this module, you'll gain a deep understanding of various form elements, their functionalities, and how to optimize them for a seamless, accessible user experience.
 
 ## Prerequisites
 

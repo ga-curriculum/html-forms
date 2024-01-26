@@ -13,7 +13,7 @@ Forms are more than just a way to gather information; they are the backbone of u
 | Lesson | Video Time | Video | Skills |
 | ------ |:----------:|:-----:| ------ |
 | [Setup](./setup/README.md) | -- | -- | Setting up the development environment |
-| [Concepts](./concepts/README.md) | -- | -- |  |
+| [Concepts](./concepts/README.md) | -- | -- | Understand the importance of HTML `forms` in web development |
 | [The Form Element](./the-form-element/README.md) | -- | -- | Construct a form and utilize its key attributes `action` and `method` |
 | [Input Elements and Labels](./input-elements-and-labels/README.md) | -- | -- | Create a form with labeled inputs. |
 | [Button Elements in Forms](./button-elements-in-forms/README.md) | -- | -- | Using a `button` to submit a form. |

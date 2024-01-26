@@ -1,6 +1,6 @@
 # ![HTML Forms - Concepts](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will understand what forms are and why they're useful to developers. 
+**Learning objective:** By the end of this lesson, students will understand the importance of HTML forms in web development. 
 
 ## What are HTML forms, and why would we use them?
 

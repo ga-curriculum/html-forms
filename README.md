@@ -41,7 +41,7 @@ Forms are more than just a way to gather information; they are the backbone of u
 
 ✏️ [Instructor Guide](./internal-resources/instructor-guide.md)
 
-🎥 [Video Hub](./internal-resources/video-guide.md)
+🎥 [Video Hub](./internal-resources/video-hub.md)
 
 🏗️ [Release Notes](./internal-resources/release-notes.md)
 

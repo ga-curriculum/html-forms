@@ -1,5 +1,7 @@
 # ![HTML Forms - Level Up - Advanced Form Validation and Feedback](./assets/hero.png)
 
+**Learning objective:** By the end of this lesson, students will be able to apply advanced form validation techniques using HTML and CSS. They will learn to use pseudo-classes like `:valid` and `:invalid` for live form validation feedback.
+
 ## CSS Selectors for Form Feedback
 
 As we've seen, client-side form validation is a useful way to give users feedback about the data they've entered into a form. The downside is that, so far, in order to receive this feedback, users have needed to try and submit the form. This means that, if anything is incomplete or entered incorrectly, the user only knows this upon rejection - not the best user experience. 
@@ -48,13 +50,13 @@ input:valid {
 }
 ```
 
-By default, all of our inputs will be considered invalid. This is because they are empty (and each field is required), and also because each input has a `minLength` of 6 characters. We could add styling for `input:invalid` as well, however
+By default, all of our inputs will be considered invalid. This is because they are empty (and each field is required), and also because each input has a `minLength` of 6 characters. We could add styling for `input:invalid` as well, however this is less pleasant to look at when completing a form. 
 
 Once all of the necessary conditions are met, the input becomes valid. You can test this out in the browser now - once you hit 6 characters in either field, the border and background should change, indicating a valid entry. 
 
 Hold on though - as it stands, we're allowing our users to set some truly weak passwords. '123456' or 'password' would both pass our current validation standards. 
 
-We can use the [pattern](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/pattern) attribute and a [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions) to create more strict requirements for validity. Don't worry too much about understanding the regular expression you're about to see, just know that a regular expression is essentially a string of text that let you define a pattern. We can use these strings to enforce a specific pattern for an input! 
+We can use the [pattern](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/pattern) attribute and a [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions) to create more strict requirements for validity. Don't worry too much about understanding the regular expression, just know that a regular expression is essentially a string of text that lets you define a pattern. We can use these strings to enforce a specific pattern for an input! 
 
 Let's take a common example. Most passwords require at least one uppercase character and at least 1 number, along with at least 1 special character. 
 

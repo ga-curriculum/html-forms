@@ -1,4 +1,6 @@
-# ![HTML Forms - Level Up - Additional Enhancements](./assets/hero.png)
+# ![HTML Forms - Level Up - The Datalist Element](./assets/hero.png)
+
+**Learning objective:** By the end of this lesson, students will be able to distinguish between `<datalist>` and `<select>` elements, and implement the `<datalist>` element in forms.
 
 ## The datalist element
 
@@ -8,7 +10,9 @@ However, the `<datalist>` element is more like an associated list of options for
 
 To better understand what makes them unique, you can think about `<datalist>` as sort of a combination of an `<input>` and a `<select>` element. A datalist is a set of predefined options associated with a text input, which allows the user to either select from the options or submit alternative text. 
 
-One big benefit is that `<datalist>`'s also provide an auto-complete feature - as the user starts typing, any available options that match their text will show up as suggestions. Historically, adding auto-complete to an input required a decent amount of JavaScript, but with `<datalist>` we now get this behavior natively with HTML! 
+One benefit is that `<datalist>`'s also provide an auto-complete feature - as the user starts typing, any available options that match their text will show up as suggestions. Historically, adding auto-complete to an input required a significant amount of JavaScript, but with `<datalist>` we now get this behavior natively with HTML! 
+
+To test out a datalist, add the following to your form:
 
 ```html
 <label for="pet-choice">Choose a pet: </label>
@@ -24,10 +28,10 @@ One big benefit is that `<datalist>`'s also provide an auto-complete feature - a
 </datalist>
 ```
 
-Note that, as with labels, the input is not wrapped 
+Note that, as with labels, the input for the datalist is not wrapped 
 
-In this instance, we provide some of the most popular pets as options in a `<datalist>`. These options are not an exhaustive list of all possible pets a user could have, but they are statistically the most likely answers (maybe aside from chinchilla). 
+In this example, we provide some of the most popular pets as options in a `<datalist>`. These options are not an exhaustive list of all possible pets a user could have, but they are statistically the most likely answers (maybe aside from chinchilla). 
 
 Using an input with a datalist means that we can hint at popular answers, but also leave the option for the user to enter something else. It also subtly points users towards using generic terms like "dog" or "fish", vs. entering specifics like "Golden Labradoodle" or "Peppermint Angelfish". 
 
-`<select>` is more rigid, and strictly enforces possible inputs to a curated list of possible options. An `<input>` with an associated `<datalist>` offers selectable options and auto-complete, but should still be treated like an `<input>`. 
+> `<select>` is more rigid, and strictly enforces possible inputs to a curated list of possible options. An `<input>` with an associated `<datalist>` offers selectable options and auto-complete, but should still be treated like an `<input>`. 

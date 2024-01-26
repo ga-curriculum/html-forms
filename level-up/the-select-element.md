@@ -1,6 +1,8 @@
-# ![HTML Forms - Level Up - Advanced Form Elements](./assets/hero.png)
+# ![HTML Forms - Level Up - The Select Element](./assets/hero.png)
 
-One form element we haven't touched on yet is `<select>`, which is used for creating dropdown menus so that the user can select from a list of options. 
+**Learning objective:** By the end of this lesson, students will be able to use the `<select>` element and its accompanying `<option>` elements to create dropdown menus in HTML forms. 
+
+One frequently used element is `<select>`, which is used for creating dropdown menus so that the user can select from a list of options. 
 
 Each `<select>` element will contain a number of `<option>` 
 elements. 

@@ -1,6 +1,8 @@
 # ![HTML Forms - Level Up - Additional Elements to Enhance Accessibility](./assets/hero.png)
 
-## fieldset and legend
+**Learning objective:** By the end of this lesson, students will be able to enhance form accessibility by effectively using the `<fieldset>` and `<legend>` elements to group related form controls and implement ARIA attributes for better accessibility.
+
+## Fieldset and legend
 
 `<fieldset>` is a layout element specifically designed to group related elements in a form. Unlike a `<div>`, which is a generic and non-semantic way to divide content, a `<fieldset>` offers improved markup clarity and has an implicit ARIA role built in.  
 
@@ -83,3 +85,5 @@ Finally, let's use another `<fieldset>` to finish our form:
   <button type="submit"> Submit <button>
 </form>
 ```
+
+We now have a `Contact Information` section and a `Message` section. Our form is now organized, accessible, and looks great!

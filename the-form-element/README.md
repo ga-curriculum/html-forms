@@ -21,7 +21,7 @@ While the `<form>` element can function with just its basic tag, it's often equi
 All of these attributes are optional, but key attributes like **action** and **method** are always used when sending form data to a server.
 
 ```html
-<form action="/my-page" method="post">
+<form action="/the-form-submits-here" method="post">
   <!-- Form controls go here -->
 </form>
 ```

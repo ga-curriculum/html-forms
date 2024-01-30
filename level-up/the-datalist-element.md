@@ -1,4 +1,4 @@
-# ![HTML Forms - Level Up - The Datalist Element](./assets/hero.png)
+# ![HTML Forms - Level Up - The Datalist Element](./assets/the-datalist-element.png)
 
 **Learning objective:** By the end of this lesson, students will be able to distinguish between `<datalist>` and `<select>` elements, and implement the `<datalist>` element in forms.
 

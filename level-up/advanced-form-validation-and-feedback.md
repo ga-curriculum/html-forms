@@ -1,4 +1,4 @@
-# ![HTML Forms - Level Up - Advanced Form Validation and Feedback](./assets/hero.png)
+# ![HTML Forms - Level Up - Advanced Form Validation and Feedback](./assets/advanced-form-validation-and-feedback.png)
 
 **Learning objective:** By the end of this lesson, students will be able to apply advanced form validation techniques using HTML and CSS. They will learn to use pseudo-classes like `:valid` and `:invalid` for live form validation feedback.
 

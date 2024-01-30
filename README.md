@@ -1,4 +1,4 @@
-# ![HTML Forms](./assets/tktk-hero.png)
+# ![HTML Forms](./assets/hero.png)
 
 ## About
 

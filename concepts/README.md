@@ -17,7 +17,7 @@ Forms enable all of this, and so much more! Forms and links hold a unique place 
 
 ## Learning to optimize HTML forms
 
-Because they are such a heavy driver of user interaction and data collection, forms are one of the most vital parts of a webpage. To optimize forms for functionality and user experience, developers have access to a variety of tools and techniques:
+Because they are such a heavy driver of user interaction and data collection, forms are one of the most vital parts of a webpage. To optimize forms for functionality and user experience, developers have access to a variety of tools and techniques including:
 
 **Diverse input methods**
 
@@ -30,5 +30,3 @@ Because they are such a heavy driver of user interaction and data collection, fo
 **Data validation mechanisms**
 
 - Validation messages ensure users are providing data correctly. These alert users to input errors, such as an incorrectly formatted email address.
-
-So much more!

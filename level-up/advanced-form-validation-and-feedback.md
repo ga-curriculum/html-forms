@@ -12,14 +12,14 @@ Let's leave our existing 'Contact Us' form aside for now, and use a simple login
 
 ```html
   <form action="/sign-in" method="post">
-    <label for="user"> Username: </label>
+    <label for="user">Username:</label>
     <input 
       type="text" 
       id="user" 
       minlength="6" 
       required 
     />
-    <label for="password"> Password: </label>
+    <label for="password">Password:</label>
     <input 
       type="password" 
       id="password" 
@@ -63,7 +63,7 @@ Let's take a common example. Most passwords require at least one uppercase chara
 We'd specify these requirements like so:
 
 ```html
-    <label for="password"> Password: </label>
+    <label for="password">Password:</label>
     <input 
       type="password" 
       id="password" 

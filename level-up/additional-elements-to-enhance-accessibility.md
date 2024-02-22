@@ -15,11 +15,11 @@ Let's apply this dynamic duo to the first part of our existing form:
   <fieldset>
       <legend>Contact Information</legend>
         <div>
-          <label for="name"> Name: </label>
+          <label for="name">Name:</label>
           <input type="text" id="name" required />
         </div>
         <div>
-          <label for="email"> Email: </label>
+          <label for="email">Email:</label>
           <input type="email" id="email" required />
         </div>
   </fieldset>
@@ -38,11 +38,11 @@ There is one improvement we can still make, however:
     <!-- Add an id below: -->
     <legend id="contactLegend">Contact Information</legend>
       <div>
-        <label for="name"> Name: </label>
+        <label for="name">Name:</label>
         <input type="text" id="name" required />
       </div>
       <div>
-        <label for="email"> Email: </label>
+        <label for="email">Email:</label>
         <input type="email" id="email" required />
       </div>
   </fieldset>
@@ -59,11 +59,11 @@ Finally, let's use another `<fieldset>` to finish our form:
   <fieldset aria-labelledby="contactLegend">
     <legend id="contactLegend">Contact Information</legend>
     <div>
-      <label for="name"> Name: </label>
+      <label for="name">Name:</label>
       <input type="text" id="name" required />
     </div>
     <div>
-      <label for="email"> Email: </label>
+      <label for="email">Email:</label>
       <input type="email" id="email" required />
     </div>
   </fieldset>
@@ -78,11 +78,11 @@ Finally, let's use another `<fieldset>` to finish our form:
       </select>
     </div>
     <div>
-      <label for="msg"> Message: </label>
-      <textarea id="msg" required maxLength="100"></textarea>
+      <label for="message">Message:</label>
+      <textarea id="message" required maxLength="100"></textarea>
     </div>
   </fieldset>
-  <button type="submit"> Submit <button>
+  <button type="submit">Submit</button>
 </form>
 ```
 

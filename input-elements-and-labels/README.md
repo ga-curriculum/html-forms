@@ -102,16 +102,16 @@ As an example, let's add some `<div>` tags to give our contact form a more verti
 ```html
 <form>
   <div>
-    <label for="name"> Name: </label>
+    <label for="name">Name:</label>
     <input type="text" id="name" />
   </div>
   <div>
-    <label for="email"> Email: </label>
+    <label for="email">Email:</label>
     <input type="email" id="email" />
   </div>
   <div>
-    <label for="msg"> Message: </label>
-    <textarea id="msg"></textarea>
+    <label for="message">Message:</label>
+    <textarea id="message"></textarea>
   </div>
 </form>
 ```

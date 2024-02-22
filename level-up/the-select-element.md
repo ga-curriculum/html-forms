@@ -9,16 +9,16 @@ Each `<select>` element will contain a number of `<option>` elements.
 ```html
 <form action="/the-form-submits-here" method="post">
   <div>
-    <label for="name"> Name: </label>
+    <label for="name">Name:</label>
     <input type="text" id="name" required />
   </div>
   <div>
-    <label for="email"> Email: </label>
+    <label for="email">Email:</label>
     <input type="email" id="email" required />
   </div>
   <!-- Add the following: -->
   <div>
-    <label for="category"> I'm contacting about: </label>
+    <label for="category">I'm contacting about:</label>
     <select id="category">
       <option value="work">A job opportunity</option>
       <option value="question">A question</option>
@@ -27,10 +27,10 @@ Each `<select>` element will contain a number of `<option>` elements.
   </div>
 
   <div>
-    <label for="msg"> Message: </label>
-    <textarea id="msg" required maxLength="100"></textarea>
+    <label for="message">Message:</label>
+    <textarea id="message" required maxLength="100"></textarea>
   </div>
-  <button type="submit"> Submit <button>
+  <button type="submit">Submit</button>
 </form>
 ```
 

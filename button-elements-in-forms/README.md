@@ -2,12 +2,12 @@
 
 **Learning objective:** By the end of this lesson, students will be able to use a button to submit a form.
 
-## The button element
+## The `<button>` element
 
-With our form complete, we have one final step - we need some way for the user to submit the form once it has been filled out. 
+With our form complete, we have one final step - we need some way for the user to submit the form once it has been filled out.
 
 ```html
-<form action="/the-form-submits-here" method="post">
+<form action="/the-form-submits-here" method="POST">
   <div>
     <label for="name"> Name: </label>
     <input type="text" id="name" />
@@ -17,20 +17,19 @@ With our form complete, we have one final step - we need some way for the user t
     <input type="email" id="email" />
   </div>
   <div>
-    <label for="msg"> Message: </label>
-    <textarea id="msg"></textarea>
-    <!-- we need a submit button -->
+    <label for="message"> Message: </label>
+    <textarea id="message"></textarea>
   </div>
+  <!-- we need a submit button -->
 </form>
 ```
 
-For this, we can use a `<button>` element with a type attribute of `"submit"`. 
+For this, we can use a `<button>` element with a `type` attribute set to a value of `"submit"`.
 
-
-When a `<button type="submit">` inside of a form element is clicked, it will submit the form data to the URL designated by the form's `action` attribute.
+When a `<button type="submit">` inside a `<form>` element is clicked, it will submit the form data to the URL designated by the form's `action` attribute.
 
 ```html
-<form action="/the-form-submits-here" method="post">
+<form action="/the-form-submits-here" method="POST">
   <div>
     <label for="name"> Name: </label>
     <input type="text" id="name" />
@@ -40,14 +39,11 @@ When a `<button type="submit">` inside of a form element is clicked, it will sub
     <input type="email" id="email" />
   </div>
   <div>
-    <label for="msg"> Message: </label>
-    <textarea id="msg"></textarea>
+    <label for="message"> Message: </label>
+    <textarea id="message"></textarea>
   </div>
-  <button type="submit"> Submit <button>
+  <button type="submit">Submit</button>
 </form>
 ```
 
-> In this example `"/the-form-submits-here"` is a placeholder URL, therefore clicking submit does nothing. 
-
-
-
+> 🧠 In this example, `"/the-form-submits-here"` is a placeholder URL; therefore, clicking submit does nothing.

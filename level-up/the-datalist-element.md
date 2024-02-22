@@ -15,7 +15,7 @@ One benefit is that `<datalist>`'s also provide an auto-complete feature - as th
 To test out a datalist, add the following to your form:
 
 ```html
-<label for="pet-choice">Choose a pet: </label>
+<label for="pet-choice">Choose a pet:</label>
 <input list="pets" id="pet-choice" name="pet-choice" />
 
 <datalist id="pets">

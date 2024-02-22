@@ -1,18 +1,20 @@
 # ![HTML Forms - Form Validation Techniques](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will be able to add client-side form validation to their forms.
+**Learning objective:** By the end of this lesson, students will be able to add validation to their client-side forms.
 
-## Form Validation
+## Form validation
 
-You've probably filled out a form online before and hit 'submit', only to see a message like "This field is required" pop up because you missed filling in something. Or perhaps you've entered a new password that didn't exactly conform to the 12 different rules laid out on a sign-up page. While this can be frustrating, it's actually for the user's benefit - after all, why allow data to make it to the server if it's not in the format we need?
+You've probably filled out a form online before and hit the submit button, only to see a message like "This field is required" pop up because you missed filling in something. Or you may have entered a new password that didn't conform to the site's password requirements.
 
-This is called client-side validation - instructing the browser to perform tests before the data is actually sent off to the server.
+While this can be frustrating, it's for the user's benefit. Data shouldn't be sent to a server if it's not in the required format, and users should be allowed to correct their errors.
+
+This is accomplished through client-side form validation. When implemented, the browser performs tests before the form data is sent to the server. If any of those tests fail, the user is informed of what went wrong and what action they should take to fix the error.
 
 ## Validation attributes
 
-Some validation is built in to HTML as *validation attributes*.
+Some validation is built into HTML as [constraint validation](https://developer.mozilla.org/en-US/docs/Web/HTML/Constraint_validation), which is accomplished by specifying the `type` of an input (for example, `<input type="email" />`) and through other validation-related attributes.
 
-A popular example of one of these attributes is `required`, which ensures that a form field is filled in (has a value) before the form can be submitted. It's a Boolean, so we don't need to use `required="true"`. Simply including the attribute inside the input tag is sufficient:
+Another commonly used attribute is `required`. It ensures that a form field is filled in (has a value) before the form can be submitted. It's a Boolean, so we don't need to use `required="true"`. Including the attribute inside the input tag is sufficient:
 
 ```html
 <form action="/the-form-submits-here" method="post">
@@ -34,22 +36,23 @@ A popular example of one of these attributes is `required`, which ensures that a
 
 ### Built-in form validation
 
-The "email" type input also has a further level of [built-in validation](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/email#value), as mentioned previously.
+As mentioned previously, the email type input also has a further level of [built-in validation](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/email#value).
 
 Key things to note:
 
-- By default, `<input type="email">` will automatically make sure that the input value is either empty, or properly-formatted. In this way, `type` itself can be considered a form of validation.
+- By default, `<input type="email">` will automatically ensure that the input value is either empty or properly formatted. The `type` attribute is a form of validation.
 
-- When we make an `<input type="email">` input *required*, we also ensure that it cannot be empty. This way, we *guarantee* an email address will be entered before this form can be submitted.
+- When we gave the `<input type="email" />` element the `required` attribute, we also ensured it could not be empty. This way, we can be reasonably sure an email address will be entered before this form can be submitted.
 
-> 🧠 A note on the word "guarantee"
-> Client-side validation should never be considered as a replacement for server-side validation, as client-side validation is relatively easy to bypass. Rather, client-side validation is intended to provide a better user experience by catching and rejecting invalid entries and allowing a user to fix them immediately.
+> 🧠 Client-side form validation should never be considered a replacement for server-side validation. Client-side validation is relatively easy for bad actors to bypass.
+>
+> Client-side form validation is intended to provide a better user experience by catching and rejecting invalid entries and allowing users to fix them immediately.
 
 ### Other helpful attributes
 
-We can also use built in validation to control things like the `maxLength` of a text entry, or the `min` and `max` values of numerical inputs.
+We can also use built-in validation to control things like the `maxLength` of a text entry or the `min` and `max` values of numerical inputs.
 
-For instance, to prevent someone from copying an entire novel into our `<textarea>` (the default max characters of a textarea is 524,288, which is roughly 375 pages), we could add a `maxLength` attribute:
+For instance, to prevent someone from copying an entire novel into our `<textarea>`, we could add a `maxLength` attribute:
 
 ```html
 <form action="/the-form-submits-here" method="post">

@@ -1,6 +1,6 @@
 # ![HTML Forms - Accessibility in Web Forms](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will understand how labels and placeholders differ for accessibility. 
+**Learning objective:** By the end of this lesson, students will understand how labels and placeholders differ for accessibility.
 
 ## Accessibility pitfall: misuse of the placeholder attribute
 

@@ -9,7 +9,6 @@ The `<form>` is a container element designed to be filled with other elements. O
 The `<input>` element is the primary way to create interfaces for interacting with the user. The look of `<input>` elements can vary drastically depending on their `type` attribute, which dictates a lot about the behavior of the `<input>` and the kind of information they collect. Two of the most common text-based inputs include:
 
 - **Text input**: The most basic form of an input field. It allows users to enter a single line of text.
-
 - **Email input**: This input is similar in appearance to the text input but has built-in text validation. This ensures users enter a valid email format.
 
 ## Basic form considerations

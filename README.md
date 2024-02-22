@@ -36,7 +36,6 @@ Forms are more than just a way to gather information; they are the backbone of u
 
 📖 [Reference Materials](./references/README.md)
 
-
 ## Internal resources
 
 ✏️ [Instructor Guide](./internal-resources/instructor-guide.md)

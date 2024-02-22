@@ -46,4 +46,4 @@ When a `<button type="submit">` inside a `<form>` element is clicked, it will su
 </form>
 ```
 
-> 🧠 In this example, `"/the-form-submits-here"` is a placeholder URL; therefore, clicking submit does nothing.
+> 🧠 In this example, `"/the-form-submits-here"` is a placeholder URL; therefore, clicking submit doesn't submit the data anywhere.

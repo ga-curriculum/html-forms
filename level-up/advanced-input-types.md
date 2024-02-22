@@ -1,4 +1,4 @@
-# ![HTML Forms - Level Up - Advanced Input Types](./assets/advanced-input-types.png)
+# ![HTML Forms - Advanced Input Types](./assets/advanced-input-types.png)
 
 **Learning objective:** By the end of this lesson, students will be able to identify and utilize various advanced HTML input types.
 

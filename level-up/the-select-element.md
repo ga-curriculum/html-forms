@@ -1,11 +1,10 @@
 # ![HTML Forms - Level Up - The Select Element](./assets/the-select-element.png)
 
-**Learning objective:** By the end of this lesson, students will be able to use the `<select>` element and its accompanying `<option>` elements to create dropdown menus in HTML forms. 
+**Learning objective:** By the end of this lesson, students will be able to use the `<select>` element and its accompanying `<option>` elements to create dropdown menus in HTML forms.
 
-One frequently used element is `<select>`, which is used for creating dropdown menus so that the user can select from a list of options. 
+One frequently used element is `<select>`, which is used for creating dropdown menus so that the user can select from a list of options.
 
-Each `<select>` element will contain a number of `<option>` 
-elements. 
+Each `<select>` element will contain a number of `<option>` elements.
 
 ```html
 <form action="/the-form-submits-here" method="post">
@@ -35,7 +34,7 @@ elements.
 </form>
 ```
 
-As with our other inputs, we will attach a label by giving the `<select>` an `id`, and giving the label a `for` attribute that matches.  
+As with our other inputs, we will attach a label by giving the `<select>` an `id`, and giving the label a `for` attribute that matches.
 
 Each `<option>` should have a `value` that contains the data value you want to submit with the form. If the user selects this option, then that `value` attribute is what will be sent to the server. For example, given the following `<option>`
 
@@ -43,11 +42,10 @@ Each `<option>` should have a `value` that contains the data value you want to s
 <option value="cats"> I Love Cats </option>
 ```
 
-The user selects the string "I Love Cats", but the form itself submits "cats" as the value. 
+The user selects the string "I Love Cats", but the form itself submits "cats" as the value.
 
 ## A quick note on styling
 
-Select, and option elements in particular, are notoriously difficult to style. They are quite limited as far as what is able to be styled, and depending on the browser some key visual attributes like font and background color aren't accessible at all. 
+Select, and option elements in particular, are notoriously difficult to style. They are quite limited as far as what is able to be styled, and depending on the browser some key visual attributes like font and background color aren't accessible at all.
 
-You can learn more about the difficulties with styling select and option elements from MDN's [Advanced Form Styling](https://developer.mozilla.org/en-US/docs/Learn/Forms/Advanced_form_styling). 
-
+You can learn more about the difficulties with styling select and option elements from MDN's [Advanced Form Styling](https://developer.mozilla.org/en-US/docs/Learn/Forms/Advanced_form_styling).

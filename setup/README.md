@@ -6,11 +6,11 @@ Open your Terminal application and navigate to your `~/code/ga/lectures` directo
 cd ~/code/ga/lectures
 ```
 
-Make a new directory called `intermediate-html`, then enter this directory:
+Make a new directory called `html-forms`, then enter this directory:
 
 ```bash
-mkdir intermediate-html
-cd intermediate-html
+mkdir html-forms
+cd html-forms
 ```
 
 Then, create an `index.html` file. This file will hold your work for this lecture:

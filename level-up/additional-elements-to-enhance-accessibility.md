@@ -4,11 +4,11 @@
 
 ## Fieldset and legend
 
-`<fieldset>` is a layout element specifically designed to group related elements in a form. Unlike a `<div>`, which is a generic and non-semantic way to divide content, a `<fieldset>` offers improved markup clarity and has an implicit ARIA role built in.  
+`<fieldset>` is a layout element specifically designed to group related elements in a form. Unlike a `<div>`, which is a generic and non-semantic way to divide content, a `<fieldset>` offers improved markup clarity and has an implicit ARIA role built in.
 
-The `<legend>` element goes inside of a `<fieldset>` and serves as a caption for whatever content is contained in the `<fieldset>`. These help users more readily understand the purpose of each section in a form. 
+The `<legend>` element goes inside of a `<fieldset>` and serves as a caption for whatever content is contained in the `<fieldset>`. These help users more readily understand the purpose of each section in a form.
 
-Let's apply this dynamic duo to the first part of our existing form: 
+Let's apply this dynamic duo to the first part of our existing form:
 
 ```html
 <form action="/the-form-submits-here" method="post">
@@ -25,9 +25,9 @@ Let's apply this dynamic duo to the first part of our existing form:
   </fieldset>
 ```
 
-The `<fieldset>` wraps around all of the `<input>`'s that make up the grouping. 
+The `<fieldset>` wraps around all of the `<input>`'s that make up the grouping.
 
-One of the big benefits of the `<fieldset>` element is that it can help provide meaningful ARIA labelling. The ARIA `group` role is used to denote a collection of items or elements with related functionality. As this is the intended use-case for a `<fieldset>`, this is also the implicit ARIA role for any `<fieldset>` element, meaning that the browser automatically interprets the role without us needing to use the `role` attribute. 
+One of the big benefits of the `<fieldset>` element is that it can help provide meaningful ARIA labelling. The ARIA `group` role is used to denote a collection of items or elements with related functionality. As this is the intended use-case for a `<fieldset>`, this is also the implicit ARIA role for any `<fieldset>` element, meaning that the browser automatically interprets the role without us needing to use the `role` attribute.
 
 There is one improvement we can still make, however:
 
@@ -48,9 +48,9 @@ There is one improvement we can still make, however:
   </fieldset>
 ```
 
-Following a familiar pattern by now, we'll associate the `<fieldset>` and `<legend>` using an `id` and the [`aria-labelledby`](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-labelledby) attribute. This is a great way to provide an accessible name for the `<fieldset>`. 
+Following a familiar pattern by now, we'll associate the `<fieldset>` and `<legend>` using an `id` and the [`aria-labelledby`](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-labelledby) attribute. This is a great way to provide an accessible name for the `<fieldset>`.
 
-In the same way that `<input>` elements should always have a `<label>`, giving each `<fieldset>` element an appropriate `<legend>` goes a long way towards ensuring your forms remain accessible and clear to users. 
+In the same way that `<input>` elements should always have a `<label>`, giving each `<fieldset>` element an appropriate `<legend>` goes a long way towards ensuring your forms remain accessible and clear to users.
 
 Finally, let's use another `<fieldset>` to finish our form:
 

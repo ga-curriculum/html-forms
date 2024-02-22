@@ -49,12 +49,12 @@ Let's help increase the accessibility of our form by telling our users which fie
     <input type="email" id="email" />
   </div>
   <div>
-    <label for="msg">Message:</label>
+    <label for="message">Message:</label>
     <div><small>required</small></div>
-    <textarea id="msg"></textarea>
+    <textarea id="message"></textarea>
   </div>
   <button type="submit">Submit</button>
 </form>
 ```
 
-Note that there is visual work we could do with this form to make it more accessible - refer to the assets above for some potential styling inspiration for your forms.
+Note that there is visual work we could do with this form to make it even more accessible to sighted users - refer to the assets above for some potential styling inspiration for your forms. In particular, pay attention to the spacing between elements and how visual grouping can help bundle an input and the details about an input.

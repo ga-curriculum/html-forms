@@ -11,7 +11,7 @@ The `<legend>` element goes inside of a `<fieldset>` and serves as a caption for
 Let's apply this dynamic duo to the first part of our existing form:
 
 ```html
-<form action="/the-form-submits-here" method="post">
+<form action="/the-form-submits-here" method="POST">
   <fieldset>
       <legend>Contact Information</legend>
         <div>
@@ -32,7 +32,7 @@ One of the big benefits of the `<fieldset>` element is that it can help provide 
 There is one improvement we can still make, however:
 
 ```html
-<form action="/the-form-submits-here" method="post">
+<form action="/the-form-submits-here" method="POST">
   <!-- Add the aria-labelledby attribute: -->
   <fieldset aria-labelledby="contactLegend">
     <!-- Add an id below: -->
@@ -55,7 +55,7 @@ In the same way that `<input>` elements should always have a `<label>`, giving e
 Finally, let's use another `<fieldset>` to finish our form:
 
 ```html
-<form action="/the-form-submits-here" method="post">
+<form action="/the-form-submits-here" method="POST">
   <fieldset aria-labelledby="contactLegend">
     <legend id="contactLegend">Contact Information</legend>
     <div>

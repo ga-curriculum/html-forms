@@ -18,7 +18,7 @@ Another commonly used attribute is `required`. It ensures that a form field is f
 
 ```html
 <h1>Contact Form</h1>
-<form action="/the-form-submits-here" method="post">
+<form action="/the-form-submits-here" method="POST">
   <div>
     <label for="name">Name:</label>
     <input type="text" id="name" required />
@@ -57,7 +57,7 @@ For instance, to prevent someone from copying an entire novel into our `<textare
 
 ```html
 <h1>Contact Form</h1>
-<form action="/the-form-submits-here" method="post">
+<form action="/the-form-submits-here" method="POST">
   <div>
     <label for="name">Name:</label>
     <input type="text" id="name" required />

@@ -13,7 +13,7 @@ You've likely used a form to:
 - **Deliver feedback** about a product or service.
 - **Conduct a search** for information.
 
-Forms enable all of this and more! Forms and links hold a unique place in web development as they can **initiating HTTP requests directly** without needing JavaScript. This characteristic sets them apart, as they enable fundamental user interactions on the web, such as submitting data or navigating to different pages, through default browser functionality.
+Forms enable all of this and more! Forms and links hold a unique place in web development as they can **initiate HTTP requests directly** without needing JavaScript. This characteristic sets them apart, as they enable fundamental user interactions on the web, such as submitting data or navigating to different pages, through default browser functionality.
 
 ## Learning to optimize HTML forms
 

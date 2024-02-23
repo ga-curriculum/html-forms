@@ -11,7 +11,7 @@ Luckily, HTML5 introduced new pseudo-classes like `:valid` and `:invalid` that h
 Let's leave our existing 'Contact Us' form aside for now, and use a simple login form to demonstrate the power of these pseudo-classes:
 
 ```html
-  <form action="/sign-in" method="post">
+  <form action="/sign-in" method="POST">
     <label for="user">Username:</label>
     <input 
       type="text" 

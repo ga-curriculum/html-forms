@@ -7,7 +7,7 @@ One frequently used element is `<select>`, which is used for creating dropdown m
 Each `<select>` element will contain a number of `<option>` elements.
 
 ```html
-<form action="/the-form-submits-here" method="post">
+<form action="/the-form-submits-here" method="POST">
   <div>
     <label for="name">Name:</label>
     <input type="text" id="name" required />

@@ -33,7 +33,7 @@ With the following considerations in mind, let's add the following `<input>` ele
 
 ```html
 <h1>Contact Form</h1>
-<form>
+<form action="/the-form-submits-here" method="POST">
   <input type="text" />
   <input type="email" />
   <input type="text" />
@@ -52,7 +52,7 @@ Let's add a `<label>` element that corresponds to each `<input>` element in our 
 
 ```html
 <h1>Contact Form</h1>
-<form>
+<form action="/the-form-submits-here" method="POST">
   <label for="name">Name:</label>
   <input type="text" id="name" />
   <label for="email">Email:</label>
@@ -78,7 +78,7 @@ Let's replace the single-line message `<input>` element with a `<textarea>` elem
 
 ```html
 <h1>Contact Form</h1>
-<form>
+<form action="/the-form-submits-here" method="POST">
   <label for="name">Name:</label>
   <input type="text" id="name">
   <label for="email">Email:</label>
@@ -101,7 +101,7 @@ As an example, let's add some `<div>` tags to give our contact form a more verti
 
 ```html
 <h1>Contact Form</h1>
-<form>
+<form action="/the-form-submits-here" method="POST">
   <div>
     <label for="name">Name:</label>
     <input type="text" id="name" />

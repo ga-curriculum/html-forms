@@ -17,6 +17,7 @@ Some validation is built into HTML as [constraint validation](https://developer.
 Another commonly used attribute is `required`. It ensures that a form field is filled in (has a value) before the form can be submitted. It's a Boolean, so we don't need to use `required="true"`. Including the attribute inside the input tag is sufficient:
 
 ```html
+<h1>Contact Form</h1>
 <form action="/the-form-submits-here" method="post">
   <div>
     <label for="name">Name:</label>
@@ -55,6 +56,7 @@ We can also use built-in validation to control things like the `maxLength` of a 
 For instance, to prevent someone from copying an entire novel into our `<textarea>`, we could add a `maxLength` attribute:
 
 ```html
+<h1>Contact Form</h1>
 <form action="/the-form-submits-here" method="post">
   <div>
     <label for="name">Name:</label>

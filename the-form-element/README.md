@@ -10,9 +10,10 @@ As we work in this lecture we'll be building a contact form where a user can sub
 
 The `<form>` element represents a document section containing interactive controls for submitting information. `<form>` acts as a wrapper element for various other elements, which either offer structure to the form or work as ***controls*** for the form itself.
 
-Let's create a form using the `<form>` container element inside of the `<body>`:
+Let's create a form using the `<form>` container element inside of the `<body>`. We'll add a header above it as well:
 
 ```html
+<h1>Contact Form</h1>
 <form>
   <!-- Form controls go here -->
 </form>
@@ -25,6 +26,7 @@ While the `<form>` element can function with just its basic tag, it's often equi
 These attributes are optional, but key attributes like **action** and **method** are always used when sending form data to a server.
 
 ```html
+<h1>Contact Form</h1>
 <form action="/the-form-submits-here" method="POST">
   <!-- Form controls go here -->
 </form>

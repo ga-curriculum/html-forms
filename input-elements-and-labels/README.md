@@ -32,6 +32,7 @@ Any other information we try to collect will likely feel unnecessary. Asking for
 With the following considerations in mind, let's add the following `<input>` elements to our form:
 
 ```html
+<h1>Contact Form</h1>
 <form>
   <input type="text" />
   <input type="email" />
@@ -50,14 +51,14 @@ The `<label>` element should describe the information each input field seeks fro
 Let's add a `<label>` element that corresponds to each `<input>` element in our form to illustrate their use:
 
 ```html
+<h1>Contact Form</h1>
 <form>
   <label for="name">Name:</label>
   <input type="text" id="name" />
   <label for="email">Email:</label>
   <input type="email" id="email" />
   <label for="message">Message:</label>
-  <!-- Replacing input with textarea -->
-  <textarea id="message"></textarea>
+  <input id="message" />
 </form>
 ```
 
@@ -78,6 +79,7 @@ The `<textarea>` element is designed for multi-line text input, providing a much
 Let's replace the single-line message `<input>` element with a `<textarea>` element:
 
 ```html
+<h1>Contact Form</h1>
 <form>
   <label for="name">Name:</label>
   <input type="text" id="name">
@@ -100,6 +102,7 @@ In HTML forms, organization and clarity are important. While you can use any reg
 As an example, let's add some `<div>` tags to give our contact form a more vertical alignment.
 
 ```html
+<h1>Contact Form</h1>
 <form>
   <div>
     <label for="name">Name:</label>

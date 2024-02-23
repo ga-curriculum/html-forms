@@ -37,6 +37,7 @@ To make forms more accessible, place any details about the content or requiremen
 Let's help increase the accessibility of our form by telling our users which fields are required and which are not before they submit their form. All our fields are required in our case. Let's add a `<div>` element with some small print between each label and its corresponding input.
 
 ```html
+<h1>Contact Form</h1>
 <form action="/the-form-submits-here" method="POST">
   <div>
     <label for="name"> Name: </label>

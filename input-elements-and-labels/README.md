@@ -58,7 +58,7 @@ Let's add a `<label>` element that corresponds to each `<input>` element in our 
   <label for="email">Email:</label>
   <input type="email" id="email" />
   <label for="message">Message:</label>
-  <input id="message" />
+  <input type="text" id="message" />
 </form>
 ```
 

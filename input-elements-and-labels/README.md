@@ -64,8 +64,6 @@ Let's add a `<label>` element that corresponds to each `<input>` element in our 
 
 Notice the `for` attribute in the `<label>` element. This attribute should match the `id` of the corresponding `<input>` element. This link allows screen readers to announce the label when the user focuses on the input, enhancing accessibility.
 
-tktk Hunter could we add an asset here highlighting this? Dimming the text that is not part of the `for` or `id` attributes so that we're elevating that text to draw a connection?
-
 > 🧠 Labels also improve the user experience on various devices. For instance, tapping on the label on a touchscreen device will focus the corresponding input field, just like a mouse click would.
 
 If we open these changes in the browser, we should see that each input has been labeled.

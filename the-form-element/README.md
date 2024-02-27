@@ -6,7 +6,7 @@
 
 As we work in this lecture we'll be building a contact form where a user can submit a message, and leave their contact information so that we're able to send them a reply.
 
-## The form element
+## The `<form>` element
 
 The `<form>` element represents a document section containing interactive controls for submitting information. `<form>` acts as a wrapper element for various other elements, which either offer structure to the form or work as ***controls*** for the form itself.
 

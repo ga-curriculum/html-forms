@@ -2,9 +2,4 @@
 
 ## Version 1.0 - Updates from legacy content
 
-
-### Release details
-
-This lecture is new content
-
-
+This lecture is brand new lecture content!

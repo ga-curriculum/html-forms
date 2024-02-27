@@ -69,46 +69,13 @@ By default, these inputs will be considered invalid. This is because they are em
 
 Once all of the necessary conditions are met, the input becomes valid. You can test this out in the browser now - once you hit six characters in either field, the border and background should change, indicating a valid entry.
 
+> 🧠 Remember, all of this validation is happening on the client side. The `:valid` selector turns the input border green when the user's input matches the required pattern. However, the password entry won't be verified until that data gets to the server and can be matched against the correct password held there.
+
 Hold on though - as it stands, we're allowing our users to set some truly weak passwords. For example, '123456' or 'password' would pass our current validation standards.
 
 ## Validating with a regular expression
 
-We can use the [pattern](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/pattern) attribute and a [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions) to create more strict requirements for validity. Don't worry too much about understanding the regular expression. Just know that a regular expression is a string of text that lets you define a pattern. We can use these strings to enforce a specific pattern for an input!
-
-Let's take a common example. Most passwords require at least one uppercase character, at least one number, and at least one special character.
-
-We'd specify these requirements like so:
-
-```html
-<div>
-  <label for="password">Password:</label>
-  <div><small>required, at least 6 characters</small></div>
-  <div><small>Must contain at least one number</small></div>
-  <div><small>Must contain at least one lowercase letter</small></div>
-  <div><small>Must contain at least one uppercase letter</small></div>
-  <div><small>Must contain at least one of these special characters: @#$%^&+=!?</small></div>
-  <input 
-    type="password" 
-    id="password" 
-    pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=!?]).{6,}" 
-    required 
-  />
-</div>
-```
-
-Explained briefly and at a very surface level, this is what the regular expression string specifies:
-
-`(?=.*\d)` contains at least one digit
-`(?=.*[a-z])` contains at least one lowercase letter
-`(?=.*[A-Z])` contains at least one uppercase letter
-`(?=.*[@#$%^&+=!?])` contains at least one special character from the included characters
-`.{6,}` is a word of at least six characters
-
-So, we are looking for a word of at least six characters with at least one digit, lowercase letter, uppercase letter, and special character. Since our pattern also enforces a minimum length, we can remove the `minLength` attribute from our `<input>`.
-
-In the browser, try entering a password that conforms to this pattern. You should get visual feedback from our `:valid` selector once you've matched the pattern correctly.
-
-> 🧠 Remember, all of this validation is happening on the client side. The `:valid` selector turns the input border green when the user's input matches the required pattern. However, the password entry won't be verified until that data gets to the server and can be matched against the correct password held there.
+We can use the [`pattern`](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/pattern) attribute and a [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions) to create more strict requirements for validity. Check out the [`pattern` documentation on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/pattern) for more details on implementing this type of validation.
 
 ## Accessibility Concerns
 

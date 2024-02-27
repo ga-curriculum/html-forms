@@ -1,4 +1,4 @@
-# ![HTML Forms - The Select Element](./assets/the-select-element.png)
+# ![HTML Forms - The Select Element](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will be able to use the `<select>` element and its accompanying `<option>` elements to create dropdown menus in HTML forms.
 

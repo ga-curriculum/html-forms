@@ -40,9 +40,9 @@ There is one improvement we can still make, however:
 ```html
 <form action="/the-form-submits-here" method="POST">
   <!-- Add the aria-labelledby attribute: -->
-  <fieldset aria-labelledby="contactLegend">
+  <fieldset aria-labelledby="contact-legend">
     <!-- Add an id below: -->
-    <legend id="contactLegend">Contact Information</legend>
+    <legend id="contact-legend">Contact Information</legend>
     <div>
       <label for="name">Name:</label>
       <input type="text" id="name" required />
@@ -64,7 +64,7 @@ Finally, let's use another `<fieldset>` to finish our form:
 <h1>Contact Form</h1>
 <form action="/the-form-submits-here" method="POST">
   <fieldset aria-labelledby="contact-legend">
-    <legend>Contact information</legend>
+    <legend id="contact-legend">Contact information</legend>
     <div>
       <label for="name">Name:</label>
       <div><small>required</small></div>

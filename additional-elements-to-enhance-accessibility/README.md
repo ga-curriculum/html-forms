@@ -43,14 +43,14 @@ There is one improvement we can still make, however:
   <fieldset aria-labelledby="contactLegend">
     <!-- Add an id below: -->
     <legend id="contactLegend">Contact Information</legend>
-      <div>
-        <label for="name">Name:</label>
-        <input type="text" id="name" required />
-      </div>
-      <div>
-        <label for="email">Email:</label>
-        <input type="email" id="email" required />
-      </div>
+    <div>
+      <label for="name">Name:</label>
+      <input type="text" id="name" required />
+    </div>
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" required />
+    </div>
   </fieldset>
 ```
 

@@ -65,7 +65,7 @@ input:valid {
 }
 ```
 
-By default, these inputs will be considered invalid. This is because they are empty (and each field is required) and because each input has a `minLength` of 6 characters. We could add styling for `input:invalid` as well. However, this is less pleasant to look at when completing a form.
+By default, these inputs will be considered invalid. This is because they are empty (and each field is required) and because each input has a `minlength` of 6 characters. We could add styling for `input:invalid` as well. However, this is less pleasant to look at when completing a form.
 
 Once all of the necessary conditions are met, the input becomes valid. You can test this out in the browser now - once you hit six characters in either field, the border and background should change, indicating a valid entry.
 

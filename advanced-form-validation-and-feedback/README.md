@@ -4,7 +4,7 @@
 
 ## CSS Selectors for Form Feedback
 
-As we've seen, client-side form validation help give users feedback about the data they've entered into a form. The downside is that, so far, users have needed to try and submit the form to receive this feedback. This means that if anything is incomplete or entered incorrectly, the user only knows this upon rejection - not the best user experience.
+As we've seen, client-side form validation helps to give users feedback about the data they've entered into a form. The downside is that, so far, users have needed to try and submit the form to receive this feedback. This means that if anything is incomplete or entered incorrectly, the user only knows this upon rejection - not the best user experience.
 
 Luckily, we can use the `:valid` and `:invalid` pseudo-classes to add live validation feedback to our forms.
 

@@ -41,7 +41,7 @@ Let's look at some examples. Add the following form to `index.html`:
 Open the page in the browser and experiment with each input. You'll see that while they are all `<input>` elements, the behavior of each type of input varies greatly.
 
 - `number` ensures that an input will only be valid if it only contains numerical values. Mobile browsers on touchscreen devices show a numerical keyboard when users interact with this input, further improving their experience.
-- `date` is a helpful type due to the variety of date formats worldwide (DD/MM/YYYY, MM/DD/YYYY, YYYY/MM/DD, etc). Using the `date` type for inputs helps ensure users format a date strings correctly.
+- `date` is a helpful type due to the variety of date formats worldwide (DD/MM/YYYY, MM/DD/YYYY, YYYY/MM/DD, etc). Using the `date` type for inputs helps ensure users format date strings correctly.
 - `color` is similarly helpful as many users will not be familiar with RGB or Hexadecimal codes, and adding a visual component will help many users select the color they want for an input.
 - `password` is similar to text but has the added benefit of obscuring the value as it is being entered.
 - `tel` can be very useful for mobile sites, as it will attempt to bring up a keypad to make entering a phone number easier. Note that `tel` will not attempt to validate the structure of a phone number because there is too much variance in telephone format worldwide.

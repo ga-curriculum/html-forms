@@ -2,11 +2,11 @@
 
 ## Lesson references
 
-- [Form Attributes on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form#attributes)
-- [Built-in Validation](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/email#value)
-
-## Level Up references
-
-- [Input Types on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#input_types)
-- [aria-labelledby](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-labelledby)
-- [Advanced Form Styling](https://developer.mozilla.org/en-US/docs/Learn/Forms/Advanced_form_styling)
+- [MDN - `<form>`: The Form element - attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form#attributes)
+- [MDN - Constraint validation](https://developer.mozilla.org/en-US/docs/Web/HTML/Constraint_validation)
+- [MDN - `<input type="email">` - Value](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/email#value)
+- [MDN - Advanced form styling](https://developer.mozilla.org/en-US/docs/Learn/Forms/Advanced_form_styling)
+- [MDN - `aria-labelledby`](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-labelledby)
+- [MDN - HTML attribute: `pattern`](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/pattern)
+- [MDN - Regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions)
+- [MDN - `<input>`: The Input (Form Input) element - `<input>` types](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#input_types)

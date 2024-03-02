@@ -21,11 +21,11 @@ Forms are more than just a way to gather information; they are the backbone of u
 
 | Lesson | Video Time | Video | Skills |
 | ------ |:----------:|:-----:| ------ |
-| [The Select Element](../the-select-element/README.md)                                                     | -- | -- | Use the `<select>` and `<option>` elements.                                  |
-| [Additional Elements to Enhance Accessibility](../additional-elements-to-enhance-accessibility/README.md) | -- | -- | Use `<fieldset>` and `<legend>` to group controls and improve accessibility. |
-| [Advanced Form Validation and Feedback](../advanced-form-validation-and-feedback/README.md)               | -- | -- | Use the `:valid` pseudo-class for giving validation feedback.                |
-| [Advanced Input Types](../advanced-input-types/README.md)                                                 | -- | -- | Use advanced input types like `checkbox`, `date`, `password`, `tel`.         |
-| **Total Level Up content**                                                                                | -- | -- |                                                                              |
+| [The Select Element](../the-select-element/README.md)                                                     | -- | -- | Use the `<select>` and `<option>` elements.                                                        |
+| [Additional Elements to Enhance Accessibility](../additional-elements-to-enhance-accessibility/README.md) | -- | -- | Use `<fieldset>` and `<legend>` to group controls and improve accessibility.                       |
+| [Advanced Form Validation and Feedback](../advanced-form-validation-and-feedback/README.md)               | -- | -- | Use the `:valid` pseudo-class for giving validation feedback.                                      |
+| [Advanced Input Types](../advanced-input-types/README.md)                                                 | -- | -- | Use advanced input types like `checkbox`, `date`, `password`, `tel`, and the `<datalist>` element. |
+| **Total Level Up content**                                                                                | -- | -- |                                                                                                    |
 
 ## References
 

@@ -13,7 +13,7 @@ Forms are more than just a way to gather information; they are the backbone of u
 | Lesson | Video Time | Video | Skills |
 | ------ |:----------:|:-----:| ------ |
 | [Setup](./setup/README.md)                                           | 2 min  | [Link](https://generalassembly.wistia.com/medias/21dn2h4ccr) | Set up the development environment.                                     |
-| [Concepts](./concepts/README.md)                                     | 3 min  | [Link]() | Understand the importance of HTML `<form>` elements in web development. |
+| [Concepts](./concepts/README.md)                                     | 3 min  | [Link](https://generalassembly.wistia.com/medias/xee0muxii4) | Understand the importance of HTML `<form>` elements in web development. |
 | [The Form Element](./the-form-element/README.md)                     | 3 min  | [Link](https://generalassembly.wistia.com/medias/hs3ua3gjb7) | Construct a form and utilize its key attributes: `action` and `method`. |
 | [Input Elements and Labels](./input-elements-and-labels/README.md)   | 10 min | [Link](https://generalassembly.wistia.com/medias/bdc3xsmreo) | Create a form with labeled inputs.                                      |
 | [Button Elements in Forms](./button-elements-in-forms/README.md)     | 3 min  | [Link](https://generalassembly.wistia.com/medias/xo0avs2rzz) | Use a `<button>` to submit a form.                                      |

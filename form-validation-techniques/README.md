@@ -1,4 +1,7 @@
-# ![HTML Forms - Form Validation Techniques](./assets/hero.png)
+<h1>
+  <span class="headline">HTML Forms</span>
+  <span class="subhead">Form Validation Techniques</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will be able to add validation to their client-side forms.
 

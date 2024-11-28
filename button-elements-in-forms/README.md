@@ -1,4 +1,7 @@
-# ![HTML Forms - Button Elements in Forms](./assets/hero.png)
+<h1>
+  <span class="headline">HTML Forms</span>
+  <span class="subhead">Button Elements in Forms</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will be able to use a button to submit a form.
 

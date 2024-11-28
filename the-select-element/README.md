@@ -1,4 +1,7 @@
-# ![HTML Forms - The Select Element](./assets/hero.png)
+<h1>
+  <span class="headline">HTML Forms</span>
+  <span class="subhead">The Select Element</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will be able to use the `<select>` element and its accompanying `<option>` elements to create dropdown menus in HTML forms.
 

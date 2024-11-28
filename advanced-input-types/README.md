@@ -1,4 +1,7 @@
-# ![HTML Forms - Advanced Input Types](./assets/hero.png)
+<h1>
+  <span class="headline">HTML Forms</span>
+  <span class="subhead">Advanced Input Types</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will be able to identify and utilize various advanced HTML input types.
 

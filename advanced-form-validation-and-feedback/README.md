@@ -1,4 +1,7 @@
-# ![HTML Forms - Advanced Form Validation and Feedback](./assets/hero.png)
+<h1>
+  <span class="headline">HTML Forms</span>
+  <span class="subhead">Advanced Form Validation and Feedback</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will be able to apply advanced form validation techniques using HTML and CSS. They will learn to use pseudo-classes like `:valid` and `:invalid` for live form validation feedback.
 

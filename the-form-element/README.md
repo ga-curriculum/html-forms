@@ -1,4 +1,7 @@
-# ![HTML Forms - The Form Element](./assets/hero.png)
+<h1>
+  <span class="headline">HTML Forms</span>
+  <span class="subhead">The Form Element</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will understand the basics of HTML forms, including how to construct a form and utilize its key attributes.
 

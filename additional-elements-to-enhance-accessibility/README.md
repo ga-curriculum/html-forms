@@ -1,4 +1,7 @@
-# ![HTML Forms - Additional Elements to Enhance Accessibility](./assets/hero.png)
+<h1>
+  <span class="headline">HTML Forms</span>
+  <span class="subhead">Additional Elements to Enhance Accessibility</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will be able to enhance form accessibility by effectively using the `<fieldset>` and `<legend>` elements to group related form controls and implement ARIA attributes for better accessibility.
 

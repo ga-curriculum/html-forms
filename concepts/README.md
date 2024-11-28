@@ -1,4 +1,7 @@
-# ![HTML Forms - Concepts](./assets/hero.png)
+<h1>
+  <span class="headline">HTML Forms</span>
+  <span class="subhead">Concepts</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will understand the importance of HTML forms in web development.
 
